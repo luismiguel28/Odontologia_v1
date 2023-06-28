@@ -1,0 +1,112 @@
+
+.c{
+    
+    
+   
+    width: 50px;
+    color: #0d6efd;
+}
+.mes,.ano{
+    
+    color: #0d6efd;
+}
+.d{
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    
+}
+.conte tbody td{
+    cursor: pointer;
+}
+.jo{
+    color: black;
+}
+.conte .jo:hover{
+    background: rgba(0, 173, 223, 0.8);
+    color: #f9f9f9;
+}
+
+.conte .dia-pasado:hover{
+    background: rgba(223, 0, 0, 0.8);
+    color: #ffff;
+}
+
+.conte table .dia-actual{
+    background: #00addf ;
+    color: #f9f9f9;
+
+}
+.conte .mes-anterior, .conte .proximo-mes{
+    color:#cbd1d2;
+}
+.conte .mes-anterior:hover, .conte .proximo-mes:hover{
+    background:#98a0a0;
+}
+.event:after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    left:50%;
+    bottom: 7px;
+    margin: -3.5px 0 0 -3.5px;
+    background: #df0000;
+    display: block;
+    border-radius: 50%;
+}
+.event:hover::after{
+    background: #f9f9f9;
+}
+
+.event2:after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    left:50%;
+    bottom: 7px;
+    margin: -3.5px 0 0 -3.5px;
+    background: #0da30d;
+    display: block;
+    border-radius: 50%;
+}
+.event2:hover::after{
+    background: #f9f9f9;
+}
+.event2.dia-actual:after{
+    background: #f9f9f9;
+}
+
+
+#miTabla th {
+    text-align: center;
+    background: #60c6f9d2;
+}
+#miTabla tr:hover {
+   
+    background: #39db1050;
+}
+.icode , .icoact{
+ cursor: pointer;
+}
+.btna {
+    color: #fdf8f8;
+    background: #008000;
+}
+.btna:hover {
+    background: #007580;
+}
+.btne{
+    background: #831616;
+}
+.modal-header h5{
+    text-align: center;
+}
+.titulo{
+    color: #00bbe6;
+}
+
